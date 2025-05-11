@@ -2,6 +2,11 @@ package com.straight_ocean;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.item.Item;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,6 +25,7 @@ public class No6School implements ModInitializer {
 		// Proceed with mild caution.
 
 		No6SchoolItems.init();
+
 
 		LOGGER.info("Hello world!");
 		LOGGER.info("I'm Straight_Ocean");

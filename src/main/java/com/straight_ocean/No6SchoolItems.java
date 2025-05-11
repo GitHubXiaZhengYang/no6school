@@ -18,16 +18,20 @@ public class No6SchoolItems {
                     .maxCount(1)
                     .fireproof()
             ));
+    public static final Item FRAME = register("frame",
+            new Frame(new FabricItemSettings()));
     public static final ItemGroup NO6_SCHOOL_GROUP = FabricItemGroup.builder()
             .displayName(Text.translatable("itemGroup.no6_school"))
             .icon(() -> new ItemStack(No6SchoolItems.NO6_SCHOOL))
             .entries((context, entries) -> {
                 entries.add(No6SchoolItems.NO6_SCHOOL);
+                entries.add(No6SchoolItems.FRAME);
             })
             .build();
 
     public static <T extends Item> T register(String name, T item) {
         return Registry.register(Registries.ITEM, new Identifier(No6School.MOD_ID, name), item);
+
     }
     public static void init() {
         Registry.register(Registries.ITEM_GROUP, new Identifier(No6School.MOD_ID, "no6_school_group"), NO6_SCHOOL_GROUP);
