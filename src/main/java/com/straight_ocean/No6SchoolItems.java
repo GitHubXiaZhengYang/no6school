@@ -20,12 +20,15 @@ public class No6SchoolItems {
             ));
     public static final Item FRAME = register("frame",
             new Frame(new FabricItemSettings()));
+    public static final Item HIDE = register("hide",
+            new Hide(new FabricItemSettings()));
     public static final ItemGroup NO6_SCHOOL_GROUP = FabricItemGroup.builder()
             .displayName(Text.translatable("itemGroup.no6_school"))
             .icon(() -> new ItemStack(No6SchoolItems.NO6_SCHOOL))
             .entries((context, entries) -> {
                 entries.add(No6SchoolItems.NO6_SCHOOL);
                 entries.add(No6SchoolItems.FRAME);
+                entries.add(No6SchoolItems.HIDE);
             })
             .build();
 

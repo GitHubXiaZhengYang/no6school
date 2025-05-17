@@ -2,5 +2,7 @@
     "item.no6-school.no6_school": "No.6 School",
     "itemGroup.no6_school": "No.6 School",
     "item.no6_school.frame.tooltip": "I have heard the voice of \"frame\"!",
-    "item.no6_school.frame": "Frame"
+    "item.no6-school.frame": "Frame",
+    "item.no6_school.hide.tooltip": "I have heard the voice of \"hide\"!",
+    "item.no6-school.hide": "Hide"
 }

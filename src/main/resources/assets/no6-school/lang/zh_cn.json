@@ -2,5 +2,7 @@
     "item.no6-school.no6_school": "第6中学",
     "itemGroup.no6_school": "第6中学",
     "item.no6_school.frame.tooltip": "我听见了\"嫁祸\"的回响!",
-    "item.no6-school.frame": "嫁祸"
+    "item.no6-school.frame": "嫁祸",
+    "item.no6_school.hide.tooltip": "我听见了\"隐匿\"的回响!",
+    "item.no6-school.hide": "隐匿"
 }
