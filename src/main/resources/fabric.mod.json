@@ -18,6 +18,9 @@
 		"main": [
 			"com.straight_ocean.No6School"
 		],
+		"client": [
+			"com.straight_ocean.No6SchoolClient"
+		],
 		"fabric-datagen": [
 			"com.straight_ocean.No6SchoolDataGenerator"
 		]
