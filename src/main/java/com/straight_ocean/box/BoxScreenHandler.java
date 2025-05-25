@@ -1,5 +1,6 @@
-package com.straight_ocean;
+package com.straight_ocean.box;
 
+import com.straight_ocean.No6School;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.Inventory;

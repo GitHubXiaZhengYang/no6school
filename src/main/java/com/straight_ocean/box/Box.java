@@ -1,4 +1,4 @@
-package com.straight_ocean;
+package com.straight_ocean.box;
 
 import net.minecraft.block.BlockRenderType;
 import net.minecraft.block.BlockState;
@@ -17,7 +17,7 @@ import net.minecraft.world.World;
 
 
 public class Box extends BlockWithEntity {
-    protected Box(Settings settings) {
+    public Box(Settings settings) {
         super(settings);
     }
 

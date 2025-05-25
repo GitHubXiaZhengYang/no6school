@@ -1,4 +1,4 @@
-package com.straight_ocean;
+package com.straight_ocean.box;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.gui.DrawContext;

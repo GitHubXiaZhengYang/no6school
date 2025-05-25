@@ -1,18 +1,13 @@
 package com.straight_ocean;
+import com.straight_ocean.box.*;
+import com.straight_ocean.coin.*;
 
-import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
+import com.straight_ocean.command.Command;
 import net.fabricmc.api.ModInitializer;
-
-
+import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.minecraft.block.entity.BlockEntityType;
-import net.minecraft.client.gui.screen.ingame.HandledScreens;
-import net.minecraft.loot.LootTable;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
 import net.minecraft.resource.featuretoggle.FeatureSet;
 import net.minecraft.screen.ScreenHandlerType;
 import net.minecraft.util.Identifier;
@@ -46,7 +41,9 @@ public class No6School implements ModInitializer {
 		// Proceed with mild caution.
 
 		No6SchoolItems.init();
-
+//		HudRenderCallback.EVENT.register(new Hud());
+		CoinSystem.init();
+		Command.init();
 
 		LOGGER.info("Hello world!");
 		LOGGER.info("I'm Straight_Ocean");

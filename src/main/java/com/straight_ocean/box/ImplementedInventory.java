@@ -1,4 +1,4 @@
-package com.straight_ocean;
+package com.straight_ocean.box;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.Inventories;

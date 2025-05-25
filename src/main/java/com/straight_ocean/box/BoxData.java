@@ -1,5 +1,6 @@
-package com.straight_ocean;
+package com.straight_ocean.box;
 
+import com.straight_ocean.No6School;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.SimpleFabricLootTableProvider;
 import net.minecraft.item.Items;
@@ -9,14 +10,12 @@ import net.minecraft.loot.context.LootContextTypes;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
-import net.minecraft.registry.*;
 import net.minecraft.util.Identifier;
 
-import java.util.concurrent.CompletableFuture;
 import java.util.function.BiConsumer;
 
-public class DataBox extends SimpleFabricLootTableProvider {
-    public DataBox(FabricDataOutput output) {
+public class BoxData extends SimpleFabricLootTableProvider {
+    public BoxData(FabricDataOutput output) {
         super(output, LootContextTypes.CHEST);
     }
     public static final Identifier BOX_TABLE = new Identifier(No6School.MOD_ID, "box_table");
