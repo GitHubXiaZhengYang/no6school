@@ -3,6 +3,7 @@ import com.straight_ocean.box.*;
 import com.straight_ocean.coin.*;
 
 import com.straight_ocean.command.Command;
+import com.straight_ocean.job.JobSystem;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.minecraft.block.entity.BlockEntityType;
@@ -43,6 +44,7 @@ public class No6School implements ModInitializer {
 		No6SchoolItems.init();
 //		HudRenderCallback.EVENT.register(new Hud());
 		CoinSystem.init();
+		JobSystem.init();
 		Command.init();
 
 		LOGGER.info("Hello world!");
